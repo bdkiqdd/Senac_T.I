@@ -1,0 +1,99 @@
+body{
+    margin: auto;
+}
+
+#top{
+    background-color: white;
+}
+
+#top .perfil{
+    float: right;
+    margin-right: 3%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+    color: black;
+}
+
+#top .perfil:hover{
+    color: rgb(90, 214, 90);
+}
+
+#top img{
+    float: left;
+    max-width: 150px;
+    margin: auto;
+}
+
+#menu{
+    background-color: gray;
+    width: 100%;
+    display: table;
+    text-align: center;
+    padding: 0.80%;
+}
+
+#menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 5%;
+}
+
+#menu a:hover{
+    color:rgb(90, 214, 90);
+}
+
+#list{
+    float: left;
+    margin-top: 2%;
+}
+
+#list a{
+    margin: auto;
+    display: list-item;
+    list-style: circle;
+    text-decoration: none;
+    padding: 3%;
+}
+
+#meio{
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 15%;
+}
+
+#meio h2,h4{
+    background-color: darkorange;
+    padding: 1%;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#meio img{
+    align-content: center;
+    max-width: 300px;
+}
+
+#meio .sub{
+    position: relative;
+    margin-top: 0;
+    font-weight: bold;
+    background-color: aquamarine;
+    padding: 1%;
+}
+
+#imgp{
+    margin-top: 2%;
+}
+
+#left-image{
+    margin-top: 2%;
+    float: left;
+}
+
+#right-image{
+    margin-top: 2%;
+    float: right;
+}

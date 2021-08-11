@@ -1,0 +1,54 @@
+body{
+    background-color: whitesmoke;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+}
+
+#top{
+    background-color:white;
+}
+
+#top img{
+    float: left;
+    max-width: 200px;
+}
+
+#menu{
+    background-color: gray;
+    display: table;
+    padding: 3px;
+    width: 100%;
+    margin: auto;
+}
+
+#menu a{
+    display: table-cell;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 15px;
+}
+
+#menu a:hover{
+    color: rgb(98, 241, 98);
+
+}
+
+#middle h2{
+    text-align: center;
+    color: rgb(43, 41, 41);
+}
+
+#bottom{
+    margin-top: 100%;
+    background-color:rgba(112, 112, 233,0.1);
+    display: inline-block;
+    width: 100%;
+}
+
+#bottom p{
+    float: right;
+    color: rgba(0, 0, 0, 0.1); 
+    size: 5;
+}
